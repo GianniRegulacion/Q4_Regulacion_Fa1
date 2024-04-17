@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,7 +23,8 @@
                 <label for="Male"><input type="radio" id="Male" name="gender" value="Male">  Male</label><br>
                 <label for="Female"><input type="radio" id="Female" name="gender" value="Female">  Female</label><br>
                 <label for="PreferNot"><input type="radio" id="pntm" name="gender" value=" (Prefer Not To Say)">  Prefer not to mention</label><br><br>
-
+                
+                <label for="Email">Password:</label>
                 <input type="password" id="pword" name="pword" onblur="pwoFunction()" onfocus="pwoFunction1()"><br><br>
 
                 <label for="Email">Email:</label>
@@ -134,7 +136,7 @@
             var interests = document.getElementById("tArea").value;
 
             
-            var outputMessage = "Hello " + name + "! Or should I call you " + username + " ? Based on your inputs, you are a " + gender + ", where your password is [ " + password + " ] and your email is " + email + ". " + "You live right at " + address + ", and your interests are: " + interests + "!";
+            var outputMessage = "Hello " + name + "! Or should I call you " + username + "? Based on your inputs, you are a " + gender + ", where your password is [ " + password + " ] and your email is " + email + ". " + "You live right at " + address + ", and your interests are: " + interests + "!";
 
             
             document.getElementById('output').innerHTML = outputMessage;
