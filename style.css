@@ -1,4 +1,5 @@
 
+
 @import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
@@ -31,12 +32,7 @@ input[type=text], select {
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  outline: none;
-}
-input[type=text]:focus {
-  border: 3px solid #f0b4b4;
+ 
 }
 
 
@@ -144,6 +140,8 @@ input[type=reset] {
 input[type=reset]:hover {
   background-color: #29402a;}
 
+
+
 div {
   border-radius: 5px;
   background-color: #f2f2f2;
@@ -153,3 +151,46 @@ div {
   margin: 20px;
 }
 
+input.invalid{
+  border: 2px solid red;}
+
+
+input.valid{
+  border: 2px solid rgb(0, 255, 0);
+}
+
+input {
+  padding: 5px;
+  border: 2px solid transparent; 
+  transition: border-color 0.3s ease; 
+  }
+
+  textarea.invalid{
+    border: 2px solid red;}
+  
+  
+  textarea.valid{
+    border: 2px solid rgb(0, 255, 0);
+  }
+  
+  textarea {
+    padding: 5px;
+    border: 2px solid transparent; 
+    transition: border-color 0.3s ease; 
+    }
+
+    #output {
+     
+      font-family: "Prompt", sans-serif;
+      font-size: medium;
+      font-weight:400;
+      line-height: 1.5;
+    }
+
+    .design{
+      font-family: "Prompt", sans-serif;
+      font-size: medium;
+      font-weight:500;
+      line-height: 1.5;
+      color:#3e6340;
+    }
